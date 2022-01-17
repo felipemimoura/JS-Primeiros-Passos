@@ -16,3 +16,15 @@ console.log(listaDeDestinos)
 //Adicionando um elemento na lista
 listaDeDestinos.push(`Curitiba`)
 console.log("Lista com elementos adicionado apos ser inicializado",listaDeDestinos)
+
+console.log("Removendo elementos")
+
+listaDeDestinos.splice(1,2)
+
+console.log('Removendo um elemento dentro da lista(Array)', listaDeDestinos)
+
+
+
+console.log("Exibindo um unico elmeneto")
+
+console.log(listaDeDestinos[1])
